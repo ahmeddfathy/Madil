@@ -3895,3 +3895,175 @@ textarea.form-control {
     font-size: 14px;
   }
 }
+
+/* تعديل Container Fluid للموبايل */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  
+  /* تعديل padding للسكاشن */
+  .layout_padding {
+    padding: 50px 0;
+  }
+
+  .layout_padding2 {
+    padding: 35px 0;
+  }
+
+  /* تعديل hero section */
+  .hero_area {
+    border-radius: 0 0 150px 0;
+    min-height: auto;
+    padding-bottom: 50px;
+  }
+
+  .slider_section {
+    padding: 30px 0;
+  }
+
+  .slider_section .img-box {
+    height: 300px;
+    margin: 20px 0;
+  }
+
+  /* تعديل about section */
+  .about_section {
+    padding: 50px 0;
+  }
+
+  .about_section .img-box {
+    padding: 0;
+  }
+
+  .about_section .img-wrapper {
+    height: 300px;
+  }
+
+  /* تعديل services section */
+  .service_section {
+    padding: 50px 0;
+  }
+
+  .service-card {
+    margin: 0 auto 30px;
+    max-width: 100%;
+  }
+
+  /* تعديل contact section */
+  .contact_section {
+    padding: 50px 0;
+  }
+
+  .form_container {
+    padding: 25px;
+  }
+}
+
+/* تحسينات إضافية للموبايل الصغير */
+@media (max-width: 576px) {
+  /* تعديل الهوامش والـ padding */
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  .col-12, .col-sm-12, .col-md-6 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* تعديل حجم العناوين */
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  /* تعديل hero section */
+  .hero_area {
+    border-radius: 0 0 100px 0;
+  }
+
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+  .slider_section .detail-box p {
+    font-size: 0.9rem;
+  }
+
+  .slider_section .img-box {
+    height: 250px;
+  }
+
+  /* تعديل about section */
+  .about_section .img-wrapper {
+    height: 250px;
+  }
+
+  /* تعديل footer */
+  .footer_container {
+    padding-top: 40px;
+  }
+
+  .info_section {
+    padding-bottom: 20px;
+  }
+}
+
+/* تحسين التجاوب للشاشات المتوسطة */
+@media (min-width: 769px) and (max-width: 991px) {
+  .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .hero_area {
+    border-radius: 0 0 200px 0;
+  }
+
+  .slider_section .img-box {
+    height: 400px;
+  }
+
+  .about_section .img-wrapper {
+    height: 400px;
+  }
+}
+
+/* تحسين عرض الصور في جميع الأحجام */
+.img-box img, 
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* إزالة الـ overflow الأفقي */
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* تحسين container width */
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
