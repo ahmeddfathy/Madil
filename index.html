@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الخياط الماهر</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Main Content -->
+    <div class="App">
+      <div class="hero_area">
+        <!-- Navbar -->
+        <header class="header_section">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+              <a class="navbar-brand" href="index.html">
+                <span>الخياط الماهر</span>
+              </a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home">الرئيسية</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">خدماتنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">من نحن</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">تواصل معنا</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="slider_section">
+          <div
+            id="customCarousel1"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="img-box">
+                        <img
+                          src="https://th.bing.com/th/id/R.d72b7f0dcfe17ebeadb3f808a66ea531?rik=zc1M%2bgBTc1vJHw&pid=ImgRaw&r=0"
+                          alt="تفصيل وخياطة"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="detail-box">
+                        <h1>أناقتك تبدأ من هنا</h1>
+                        <p>
+                          نقدم لكم أفضل خدمات التفصيل والخياطة للرجال والنساء
+                          بأحدث التصاميم العصرية وأجود أنواع الأقمشة
+                        </p>
+                        <div class="btn-box">
+                          <a href="#contact" class="btn1">احجز موعدك الآن</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+              <li
+                data-bs-target="#customCarousel1"
+                data-bs-slide-to="0"
+                class="active"
+              ></li>
+              <li data-bs-target="#customCarousel1" data-bs-slide-to="1"></li>
+              <li data-bs-target="#customCarousel1" data-bs-slide-to="2"></li>
+            </ol>
+          </div>
+        </section>
+      </div>
+
+      <!-- Services Section -->
+      <section class="service_section layout_padding" id="services">
+        <div class="container">
+          <div class="heading_container text-center mb-5">
+            <h2 class="main-title">الخدمات المُقدمة</h2>
+            <p class="subtitle">
+              يقوم المشروع محل الدراسة بتقديم كل من الخدمات التالية
+            </p>
+            <div class="title-line mx-auto"></div>
+          </div>
+
+          <div class="row justify-content-center g-4">
+            <!-- خدمة تفصيل العباءات النسائية -->
+            <div class="col-md-6">
+              <div class="card">
+                <div class="content">
+                  <div class="icon-container">
+                    <i class="fas fa-cut"></i>
+                  </div>
+                  <h3>تفصيل العباءات النسائية</h3>
+                  <p class="para">
+                    نقدم خدمة تفصيل العباءات النسائية بأحدث التصاميم العصرية
+                    وأجود أنواع الأقمشة مع إمكانية التفصيل حسب الطلب
+                  </p>
+                  <a href="#contact" class="link">
+                    المزيد من التفاصيل
+                    <i class="fas fa-chevron-left"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- خدمة التفصيل والخياطة للرجال -->
+            <div class="col-md-6">
+              <div class="card">
+                <div class="content">
+                  <div class="icon-container">
+                    <i class="fas fa-tshirt"></i>
+                  </div>
+                  <h3>التفصيل والخياطة للرجال</h3>
+                  <p class="para">
+                    نقدم خدمات التفصيل والخياطة للرجال والتي تشمل:
+                    <br />- الثياب الرجالية المختلفة <br />- السديريات <br />-
+                    جلابيات النوم
+                  </p>
+                  <a href="#contact" class="link">
+                    المزيد من التفاصيل
+                    <i class="fas fa-chevron-left"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about_section layout_padding" id="about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="detail-box">
+                <div class="heading_container">
+                  <span class="subtitle">تعرف علينا</span>
+                  <h2 class="main-title">من نحن</h2>
+                  <div class="title-line"></div>
+                </div>
+                <div class="about-content">
+                  <p>
+                    نحن متخصصون في تقديم خدمات التفصيل والخياطة بأعلى مستويات
+                    الجودة. نمتلك خبرة تزيد عن 15 عاماً في مجال الخياطة
+                    والتفصيل، ونستخدم أحدث التقنيات وأجود أنواع الأقمشة لنضمن لك
+                    الحصول على قطع ملابس تناسب ذوقك وتليق بك.
+                  </p>
+                  <div class="btn-box">
+                    <a href="#services" class="read-more">
+                      <span>تعرف على خدماتنا</span>
+                      <i class="fa fa-arrow-left"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img-box">
+                <div class="img-wrapper">
+                  <img
+                    src="https://th.bing.com/th/id/R.23d79f8fd7d3e1aef2b932005a936cc3?rik=yIPf8uKsvuzKPQ&pid=ImgRaw&r=0"
+                    alt="خياطة وتفصيل"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact_section layout_padding" id="contact">
+        <div class="container">
+          <div class="row align-items-center justify-content-between g-5">
+            <!-- Form Column -->
+            <div class="col-lg-6">
+              <div class="form_container glass-effect">
+                <div class="heading_container">
+                  <span class="subtitle">تواصل معنا</span>
+                  <h2>احجز موعدك الآن</h2>
+                  <p class="section-description">
+                    يمكنك حجز موعد للقياس أو الاستفسار عن أي من خدماتنا
+                  </p>
+                </div>
+                <form class="contact-form">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-icon">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="الاسم بالكامل"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-icon">
+                        <i class="fa fa-phone"></i>
+                      </span>
+                      <input
+                        type="tel"
+                        class="form-control"
+                        placeholder="رقم الجوال"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-icon">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                      <input type="date" class="form-control" required />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-icon">
+                        <i class="fa fa-comment"></i>
+                      </span>
+                      <textarea
+                        class="form-control"
+                        placeholder="تفاصيل الطلب"
+                        rows="4"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary">
+                      إرسال الطلب <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!-- Logo Column -->
+            <div class="col-lg-5">
+              <div class="contact-logo" data-aos="fade-left">
+                <div class="logo-circle-container">
+                  <div class="logo-big-circle">
+                    <span class="logo-text">
+                      <span class="logo-letter">خ</span>
+                      <span class="logo-name">الخياط الماهر</span>
+                    </span>
+                    <p class="logo-subtitle">للتفصيل والخياطة</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section class="products_section layout_padding" id="products">
+        <div class="container">
+          <div class="heading_container text-center mb-5">
+            <h2 class="main-title">منتجاتنا</h2>
+            <p class="subtitle">مجموعة مختارة من أحدث تصاميمنا</p>
+            <div class="title-line mx-auto"></div>
+          </div>
+
+          <div class="row justify-content-center g-4">
+            <!-- Product 1 -->
+            <div class="col-md-4">
+              <div class="product-card">
+                <div class="imgBx">
+                  <img
+                    src="https://th.bing.com/th/id/R.2b4745c1dfce8b56f1b490f937d173dd?rik=uwFqNX0kWfSHVg&pid=ImgRaw&r=0"
+                    alt="عباية كلاسيك"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>عباية كلاسيك</h2>
+                  <div class="size">
+                    <h3>المقاس :</h3>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                  </div>
+                  <div class="color">
+                    <h3>اللون :</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="price">750 ريال</div>
+                  <a href="#contact">اطلب الآن</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="col-md-4">
+              <div class="product-card">
+                <div class="imgBx">
+                  <img
+                    src="https://th.bing.com/th/id/R.f4c8bb8deec3a36cb3feffe03d94048e?rik=Fxl2LIJZmLfQgA&pid=ImgRaw&r=0"
+                    alt="عباية مطرزة"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>عباية مطرزة</h2>
+                  <div class="size">
+                    <h3>المقاس :</h3>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                  </div>
+                  <div class="color">
+                    <h3>اللون :</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="price">950 ريال</div>
+                  <a href="#contact">اطلب الآن</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-md-4">
+              <div class="product-card">
+                <div class="imgBx">
+                  <img
+                    src="https://th.bing.com/th/id/OIP.pvhW6MYSdU2x8M4PO0FBpQHaK-?rs=1&pid=ImgDetMain"
+                    alt="ثوب رجالي"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>ثوب رجالي</h2>
+                  <div class="size">
+                    <h3>المقاس :</h3>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                  </div>
+                  <div class="color">
+                    <h3>اللون :</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="price">450 ريال</div>
+                  <a href="#contact">اطلب الآن</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <div class="footer_container">
+        <section class="info_section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="info_logo">
+                  <h3>الخياط الماهر</h3>
+                  <p>
+                    خبرة تزيد عن 15 عاماً في مجال التفصيل والخياطة نقدم لكم أفضل
+                    الخدمات بأعلى جودة
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="info_links">
+                  <h4>روابط سريعة</h4>
+                  <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="info_contact">
+                  <h4>معلومات التواصل</h4>
+                  <div class="contact_link_box">
+                    <a href="">
+                      <i class="fa fa-map-marker"></i>
+                      <span>شارع الملك فهد، الرياض، السعودية</span>
+                    </a>
+                    <a href="">
+                      <i class="fa fa-phone"></i>
+                      <span>+966 50 123 4567</span>
+                    </a>
+                    <a href="">
+                      <i class="fa fa-envelope"></i>
+                      <span>info@tailor.com</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="info_social">
+                  <h4>تابعنا على</h4>
+                  <div class="social_box">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer_section">
+          <div class="container">
+            <p>جميع الحقوق محفوظة &copy; 2024 الخياط الماهر</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
